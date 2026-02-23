@@ -1,0 +1,60 @@
+import type { MaterialInfo } from '../types/door';
+
+export const MATERIALS: MaterialInfo[] = [
+  {
+    id: 'oak',
+    name: 'Oak',
+    description: 'Classic hardwood with prominent grain',
+    defaultColor: '#8B6914',
+    secondaryColor: '#A0782C',
+    priceMultiplier: 1.0,
+  },
+  {
+    id: 'walnut',
+    name: 'Walnut',
+    description: 'Rich, dark hardwood with fine grain',
+    defaultColor: '#5C4033',
+    secondaryColor: '#6B4F3E',
+    priceMultiplier: 1.3,
+  },
+  {
+    id: 'mahogany',
+    name: 'Mahogany',
+    description: 'Premium tropical hardwood, reddish-brown',
+    defaultColor: '#C04000',
+    secondaryColor: '#D05A20',
+    priceMultiplier: 1.5,
+  },
+  {
+    id: 'pine',
+    name: 'Pine',
+    description: 'Light softwood, affordable and versatile',
+    defaultColor: '#DEB887',
+    secondaryColor: '#E8CFA0',
+    priceMultiplier: 0.7,
+  },
+  {
+    id: 'metal',
+    name: 'Metal',
+    description: 'Steel or aluminum, modern industrial look',
+    defaultColor: '#808080',
+    secondaryColor: '#A0A0A0',
+    priceMultiplier: 1.4,
+  },
+  {
+    id: 'glass',
+    name: 'Glass',
+    description: 'Tempered glass, maximum transparency',
+    defaultColor: '#E8F4FD',
+    secondaryColor: '#D0E8F5',
+    priceMultiplier: 1.6,
+  },
+  {
+    id: 'composite',
+    name: 'Composite',
+    description: 'Engineered material, weather resistant',
+    defaultColor: '#A0A0A0',
+    secondaryColor: '#B8B8B8',
+    priceMultiplier: 0.9,
+  },
+];
