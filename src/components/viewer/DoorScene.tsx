@@ -14,7 +14,11 @@ export function DoorScene() {
         shadow-mapSize-height={1024}
       />
       <directionalLight position={[-1.5, 2, 1]} intensity={0.3} />
-      <Environment preset="apartment" />
+      <Environment
+        files="lebombo_1k.hdr"
+        path="https://cdn.jsdelivr.net/gh/pmndrs/drei-assets@master/hdri/"
+        extensions={(loader) => loader.setCrossOrigin('anonymous')}
+      />
       <ContactShadows
         position={[0, -0.01, 0]}
         opacity={0.4}
